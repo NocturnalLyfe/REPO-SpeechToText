@@ -1,0 +1,9 @@
+{
+  "name": "Speech2TTS",
+  "version_number": "1.1.0",
+  "website_url": "https://github.com/NocturnalLyfe/REPO-Speech2TTS",
+  "description": "Converts your voice chat into text-to-speech using offline speech recognition. Press F7 to toggle between TTS mode and normal voice chat.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.23.4"
+  ]
+}
