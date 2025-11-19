@@ -6,9 +6,9 @@ Transform your voice chat into hilarious text-to-speech! Uses completely offline
 
 - Real-time voice -> text -> TTS conversion
 - Your actual voice is muted when STT is enabled (only TTS is broadcast)
-- Toggle on/off with a single keypress
-- Text appears in game chat for all players to see
-- Flexible model support - use small, medium, or large models
+- Toggle on/off with a single keypress -> F8
+- TTS speaks in game for all players to hear
+- Flexible model support - allowing change to different Vosk Models
 - No performance impact
 
 ## Installation
@@ -51,9 +51,12 @@ Transform your voice chat into hilarious text-to-speech! Uses completely offline
 
 ## Configuration
 
-No configuration needed! Just press F7 to toggle.
+- Toggle Mod On and Off in Menu or F8
+- Toggle Model being used ingame or in config.
+- Toggle Sensitivity of your voice to the model.
+- Toggle Pre-roll capture for better capturing of speech before talking to get full sentences.
 
-### Using Different Models
+### Recommended Models
 
 1. **vosk-model-small-en-us-0.15 (Default)** (~40MB) - Default, fastest, good accuracy
 2. **vosk-model-en-us-0.22** (~1.8GB) - Better accuracy, slower
@@ -66,9 +69,9 @@ No configuration needed! Just press F7 to toggle.
 3. Keep the original folder name (don't rename it)
 4. The mod will automatically detect and use it!
 
-**Tip:** You can have multiple models installed - the mod will use the first one it finds in the priority order above.
+**Tip:** You can have multiple models installed - the mod will let you select which one you want to use ingame.
 
-**Warning:** Changing to larger models will cause lag and is only recommended for users with stronger devices.
+**Warning:** Changing to larger models will take some time depending on the size and your device. Only recommended for stronger devices.
 
 ## Troubleshooting
 
@@ -80,16 +83,11 @@ No configuration needed! Just press F7 to toggle.
 **Low accuracy:**
 - Speak clearly and at a moderate pace
 - Check microphone quality
-- Consider upgrading to vosk-model-en-us-0.22 or vosk-model-en-us-0.42-gigaspeech for better accuracy
+- Consider downloading and changing to vosk-model-en-us-0.22 or vosk-model-en-us-0.42-gigaspeech for better accuracy
 
 **No audio transmission:**
 - This is normal when STT is enabled! Your voice is muted and replaced with TTS
 - Press F7 to disable STT for normal voice chat
-
-**Wrong model being used:**
-- Check the log file to see which model was loaded
-- Remove unwanted models from the `model/` folder
-- Models are loaded in priority order (small -> normal -> gigaspeech)
 
 ## Technical Details
 
@@ -107,8 +105,8 @@ No configuration needed! Just press F7 to toggle.
 
 ## Support
 
-Report issues on GitHub or the Thunderstore page.
-https://github.com/NocturnalLyfe/REPO-Speech2TTS
+Report issues on Discord: Username is Nocturnal0.
+https://discord.gg/vPJtKhYAFe
 
 ## Changelog
 

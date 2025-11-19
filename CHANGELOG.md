@@ -1,12 +1,12 @@
 # Changelog
 
-## [1.3.0] - 11-18-2025
+## [1.4.0] - 11-19-2025
 
 ### Added
-- Dependancy with MenuLib to create menu to manage and configure mod
+- Added Pre-roll capture to add extra audio to speech to better capture first words spoken
+- Loading Popup for when loading a model
 
-### Features
-- Sensitivity Slider for Model
-- Refresh Button to check for new models ingame
-- Folder Button to find model folder easier for adding new models
-- Vosk Model Link to find viable models
+### Changes
+- Pre-roll capture Slider for Model
+- Asynchronous loading of Models, now letting users continue to play while models load
+- Fixed bugs when loading and exiting Settings Menu
